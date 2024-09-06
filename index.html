@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        body {
+            background-image: url('OrdoRealitas.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .imagem {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Ordem Paranormal</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="Logo_Ordo_Realitas.png" alt="Minha Imagem" class="imagem">
+        <h1>Ordo Realitas</h1>
+        <h3></h3>
+    </header>
+    <main>
+        <section>
+            <div class = search-container>
+                <input type="text" placeholder="Digite sua busca" id = "campo-pesquisa">
+            <button onclick="buscar()">Buscar</button>
+            </div>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <div class="container">
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Ordem Paranormal. Todos os direitos reservados por Rafael Lange</p>
+        <p>Entre em contato pelo email: RafaelCabeludo@Lange.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="App.js"></script>
+</body>
+</html>
